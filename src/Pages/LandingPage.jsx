@@ -89,7 +89,7 @@ function LandingPage() {
             </div>
           </div>
         </div>
-        <div className="mt-[18rem] mb-[12rem]">
+        <div className="mt-[13rem] mb-[12rem]">
           <div className="border-[2px] border-[#ebebeb] rounded-md mt-[1rem] w-[90%] md:w-[40%]   py-[3rem] mx-auto"></div>
           <div className="flex justify-center mt-2 text-center">
             <div className="w-[80%] lg:w-[40%] pt-[5rem]">
