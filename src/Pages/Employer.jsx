@@ -6,6 +6,7 @@ import Info from "../Assests/info.png";
 import Tiktok from "../Assests/tiktok.png";
 import { NavLink } from "react-router-dom";
 import Footer from "../Components/Footer";
+import YoutubeWhite from "../Assests/youtube-play (2).png";
 
 function Employer() {
   return (
@@ -19,7 +20,7 @@ function Employer() {
             className="justify-start md:justify-end
              text-left flex items-center mr-[12rem] cursor-pointer"
           >
-            <img src={Discord} alt="icon" className="w-6 mr-3" />
+            <img src={YoutubeWhite} alt="icon" className="w-6 mr-3" />
             <p className="text-xl md:text-2xl">How to use JobCrypt</p>
           </a>
           <div className="flex justify-start md:justify-end mt-2  item items-center mr-2 md:mr-[10rem]">
@@ -38,7 +39,7 @@ function Employer() {
         </div>
         <div className="flex justify-between flex-wrap mt-5">
           <div className="flex justify-between w-[90%] md:w-[60%]  items-center">
-            <NavLink to="/" className="">
+            <NavLink to="/home" className="">
               <img src={Logo} alt="logo" className="w-16 object-contain" />{" "}
               <h5 className="font-semibold text-[1.2rem] text-center">
                 Job Crypt

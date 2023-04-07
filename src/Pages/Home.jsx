@@ -2,6 +2,7 @@ import Logo from "../Assests/jclogo.svg";
 import Discord from "../Assests/discord-logo.png";
 import Twitter from "../Assests/icons8-twitter.svg";
 import Youtube from "../Assests/youtube-play .png";
+import YoutubeWhite from "../Assests/youtube-play (2).png";
 import Info from "../Assests/info.png";
 import Browser from "../Assests/3000.png";
 import Filecoin from "../Assests/filecoin.png";
@@ -20,7 +21,9 @@ function Home() {
             rel="noreferrer"
             className=" justify-start flex items-center ml-5 md:ml-[13rem] cursor-pointer"
           >
-            <img src={Discord} alt="icon" className="w-6 mr-3" />
+            <span className=" ">
+              <img src={YoutubeWhite} alt="icon" className="w-6 mr-3" />
+            </span>
             <p className="text-xl md:text-2xl">How to use JobCrypt</p>
           </a>
           <div className="flex flex-wrap justify-start mt-2 item ml-5 md:ml-[13rem] items-center">
@@ -45,7 +48,7 @@ function Home() {
         </div>
         <div className="">
           <div className="flex justify-between  w-[90%]   mt-[1rem]  items-center">
-            <a href="/" className="">
+            <a href="/home" className="">
               <img src={Logo} alt="logo" className="w-16 object-contain mt-4" />{" "}
               <h5 className="font-semibold text-[.7rem] md:text-[1.2rem] text-center">
                 Job Crypt
@@ -106,7 +109,7 @@ function Home() {
             <a
               className="font-bold text-xl "
               target="_blank"
-              href="https://grants.filecoin.io/"
+              href="https://hackathons.filecoin.io/2021/browsers3000/"
               rel="noreferrer"
             >
               Winner Browsers 3000 - Filecoin Prize
